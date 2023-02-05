@@ -16,7 +16,7 @@ uvicorn src.main:app --reload
 ```
 
 # How to check
-You must go to http://127.0.0.1:8000/docs and you will see swagger-documentation for API.
+You should go to http://127.0.0.1:8000/docs and you will see swagger-documentation for API.
 
 # Technologies used:
 * Alembic
@@ -26,3 +26,4 @@ You must go to http://127.0.0.1:8000/docs and you will see swagger-documentation
 * FastAPI-cache
 * Celery
 * Redis
+* Flower
